@@ -10,6 +10,7 @@ public class javaSTDinAndSTDout {
         int b = scan.nextInt();
         int c = scan.nextInt();
         scan.close();
+        
         // Complete this line
         // Complete this line
 

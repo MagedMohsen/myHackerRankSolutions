@@ -15,6 +15,7 @@ class Result {
 
     public static List<Integer> reverseArray(List<Integer> a) {
     // Write your code here
+    
     int s = a.size();
     ArrayList<Integer> rev = new ArrayList<Integer>();
     for (int i =s-1; i>=0;i--){
