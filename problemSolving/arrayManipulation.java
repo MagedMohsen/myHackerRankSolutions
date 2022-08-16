@@ -6,11 +6,14 @@ class Result {
     
     public static long arrayManipulation(int n, List<List<Integer>> queries) {
     // this one is acceptable to all test cases as its complexty is O(m+n)
+    // the idea is that you don't have to go from a to b elements and add k to them for each query
+    // instead, add k to one element (a th) and substract it from one element (b+1 th)
+    // then if you do a cummulative addition to the whole array elements, it will result in the final array
     long max=0;
     long sum=0;
     //again, initialize the array
     List<Integer> arr = new ArrayList<>();
-    // fill is with 0s
+    // fill it with 0s
     for (int k =0;k<n+1;k++){
         arr.add(0);
     }
