@@ -31,7 +31,7 @@ class Result {
     for (int i = 0; i < n; i++) {
       sum += arr.get(i);
       // catch the max value from the right to the left of the array
-      // meaning that you don't have
+      // meaning that you don't have to store the array again then find the max value 
       max = Math.max(max, sum);
     }
     return max;
